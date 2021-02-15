@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.springframework.org/schema/beans">
+
+<!-- id表示获取到对象标识 class 创建哪个类的对象 -->
+
+<bean id="peo" class="sprin01.Peo">
+ <property name="name" value="张三"></property>
+ <property name="id" value="122"></property>
+</bean>
+
+</beans>
